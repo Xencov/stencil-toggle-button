@@ -1,5 +1,5 @@
 {
-  "name": "toggle-button",
+  "name": "x-toggle-button",
   "version": "0.0.1",
   "description": "Component for simple toggle button ",
   "module": "dist/esm/index.js",

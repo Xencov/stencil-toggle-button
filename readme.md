@@ -5,17 +5,17 @@
 A simple toggle button to be used in any app as a component, made using Stenciljs. 
 
 ## Node Modules
-Run npm install stencil-toggle-button --save
+Run npm install x-toggle-button --save
 
-Put a script tag similar to this <script src='node_modules/stencil-toggle-button/dist/toggle-button.js></script> in the head of your index.html
+Put a script tag similar to this <script src='node_modules/x-toggle-button/dist/toggle-button.js></script> in the head of your index.html
 Then you can use the element <x-toggle-button> anywhere in your template, JSX, html etc
 
 #In a stencil-starter app
 
-Run npm install stencil-toggle-button --save
-Add this import to your root component or root module: import 'stencil-toggle-button';
+Run npm install x-toggle-button --save
+Add this import to your root component or root module: import 'x-toggle-button';
 
-Then you can use the element-button> anywhere in your template, JSX, html etc
+Then you can use the <x-toggle-button> anywhere in your template, JSX, html etc
 
 Parameters
 
