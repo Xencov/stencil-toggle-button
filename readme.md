@@ -18,8 +18,9 @@ Add this import to your root component or root module: import 'stencil-toggle-bu
 Then you can use the element-button> anywhere in your template, JSX, html etc
 
 Parameters
+
 | Attribute       | Default           | Description                                         |
-|-----------------|-------------------|-----------------------------------------------------|
+| --------------- | ----------------- | --------------------------------------------------- |
 | type            | `round`           | Available types are `round` and `square`            |
 | checked         | false             | true or false to check or uncheck the toggle button |
 | name            | 'x-toggle-button' | Component name                                      |
