@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script src="/build/mycomponent.js"></script>
+
+</head>
+<body>
+
+  <h2> Checked false by default</h2>
+  <x-toggle-button id="toggle" type="square" checked="false"></x-toggle-button>
+
+
+  <h2> Checked true by default</h2>
+  <x-toggle-button id="toggle1" type="square" checked="true"></x-toggle-button>
+
+  <h2> Custom color</h2>
+  <x-toggle-button id="toggle1" type="square" checked="true" checked-color="#00FF00" unchecked-color="gray"></x-toggle-button>
+
+
+  <h2> Round toggle switch</h2>
+  <x-toggle-button id="toggle1" type="round" checked="true" checked-color="#00FF00" unchecked-color="gray"></x-toggle-button>
+</body>
+</html>
