@@ -1,7 +1,7 @@
 {
-  "name": "my-component",
+  "name": "toggle-button",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Component for simple toggle button ",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "types": "dist/types/components.d.ts",
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git@github.com:Xencov/stencil-toggle-button.git"
   },
-  "author": "Ionic Team",
+  "author": "Suroor Wijdan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/Xencov/stencil-toggle-button"
   },
-  "homepage": "https://github.com/ionic-team/stencil",
+  "homepage": "https://github.com/Xencov/stencil-toggle-button",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"

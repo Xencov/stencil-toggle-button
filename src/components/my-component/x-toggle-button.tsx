@@ -13,7 +13,7 @@ export class MyComponent {
   @Prop() type: string = "round";
   @Prop() checkedColor: string = "#2196F3";
   @Prop() uncheckedColor: string = "#ccc";
-  @Prop({mutable: true}) checked: boolean = true;
+  @Prop({mutable: true}) checked: boolean = false;
 
 
   componentDidLoad() {
