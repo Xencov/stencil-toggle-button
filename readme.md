@@ -8,7 +8,13 @@ A simple toggle button to be used in any app as a component, made using Stencilj
 Run npm install x-toggle-button --save
 
 Put a script tag similar to this <script src='node_modules/x-toggle-button/dist/toggle-button.js></script> in the head of your index.html
-Then you can use the element <x-toggle-button> anywhere in your template, JSX, html etc
+Then you can use the element <x-toggle-button> anywhere in your template, JSX, html etc.
+
+
+##Appearance
+![Demo](https://raw.githubusercontent.com/Xencov/stencil-toggle-button/master/src/images/demo.png)
+
+
 
 #In a stencil-starter app
 
@@ -39,4 +45,6 @@ It will always return either `true` or `false` based on the current state of the
 
 #License
 Free to use and modify for personal and commercial purposes as well. 
+
+PS: Credits to w3schools.com for help in css.
  
